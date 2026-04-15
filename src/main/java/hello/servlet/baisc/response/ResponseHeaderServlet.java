@@ -54,7 +54,7 @@ public class ResponseHeaderServlet extends HttpServlet {
         //Status Code 302
         //Location: /basic/hello-form.html
 
-        response.setStatus(HttpServletResponse.SC_FOUNT); //302
+        response.setStatus(HttpServletResponse.SC_FOUND); //302
         response.setHeader("Location", "/basic/hello-form.html");
         //response.sendRedirect("/basic/hello-form.html");
     }
